@@ -43,7 +43,7 @@ function App() {
       <div className="container mt-4" style={{ width: "70%" }}>
         <div
           className="card"
-          style={{ width: "100%", padding: "20px", margin: "20px" }}
+          style={{ width: "100%"}}
         >
           <div className="card-body">
             <h5 className="card-title">BMI Project</h5>
@@ -106,8 +106,12 @@ function App() {
               </button>
             </form>
 
-            <div className="card m-4 p-4">
-              <div className="card-body">
+            {/* <div className="card m-4 p-4"
+            style={{ width: "100%"}}
+            > */}
+              <div className="card-body"
+              style={{ width: "100%", padding: "0px", margin: "30px 0px" }}
+              >
                 <ul className="list-group">
                   <li className="list-group-item text-start">
                     Nama : <span>{response.name}</span>
@@ -126,7 +130,7 @@ function App() {
                   </li>
                 </ul>
               </div>
-            </div>
+            {/* </div> */}
           </div>
         </div>
       </div>
