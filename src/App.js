@@ -40,7 +40,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="container mt-4" style={{ width: "70%" }}>
+      <div className="container mt-4" style={{ width: "85%" }}>
         <div
           className="card"
           style={{ width: "100%"}}
